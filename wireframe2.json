@@ -1,0 +1,129 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [
+                {
+                    "ID": "7",
+                    "typeID": "iPhone",
+                    "zOrder": "0",
+                    "measuredW": "436",
+                    "measuredH": "867",
+                    "x": "195",
+                    "y": "79",
+                    "locked": "true",
+                    "properties": {
+                        "model": "IPhoneX",
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "10",
+                    "typeID": "LinkBar",
+                    "zOrder": "2",
+                    "measuredW": "292",
+                    "measuredH": "28",
+                    "x": "307",
+                    "y": "155",
+                    "properties": {
+                        "size": "20",
+                        "text": "Accueil, Connexion, Inscription"
+                    }
+                },
+                {
+                    "ID": "12",
+                    "typeID": "Image",
+                    "zOrder": "3",
+                    "w": "71",
+                    "h": "64",
+                    "measuredW": "161",
+                    "measuredH": "160",
+                    "x": "230",
+                    "y": "137",
+                    "properties": {
+                        "src": {
+                            "ID": "9B3C1D38-54F1-4D39-B7BE-1579A1DE3C66"
+                        }
+                    }
+                },
+                {
+                    "ID": "13",
+                    "typeID": "Title",
+                    "zOrder": "4",
+                    "w": "286",
+                    "measuredW": "222",
+                    "measuredH": "36",
+                    "x": "243",
+                    "y": "217",
+                    "properties": {
+                        "text": "Maison Lorieau",
+                        "size": "32"
+                    }
+                },
+                {
+                    "ID": "14",
+                    "typeID": "Button",
+                    "zOrder": "1",
+                    "measuredW": "72",
+                    "measuredH": "48",
+                    "x": "477",
+                    "y": "201",
+                    "properties": {
+                        "icon": {
+                            "ID": "bars",
+                            "size": "large"
+                        },
+                        "href": {},
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "15",
+                    "typeID": "Icon",
+                    "zOrder": "5",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "545",
+                    "y": "201",
+                    "properties": {
+                        "icon": {
+                            "ID": "caret-down",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "17",
+                    "typeID": "Accordion",
+                    "zOrder": "6",
+                    "w": "150",
+                    "h": "105",
+                    "measuredW": "150",
+                    "measuredH": "240",
+                    "x": "450",
+                    "y": "249",
+                    "properties": {
+                        "text": "Accueil\nCatalogue\nConnexion\nInscription\nCommande\n",
+                        "hrefs": {
+                            "href": [
+                                {
+                                    "ID": "2278E287-509B-183B-1098-2EC38DDDB7D8"
+                                },
+                                {
+                                    "ID": "72FAE9CD-5FC6-4C46-85AF-26E82E2E53F7"
+                                },
+                                {
+                                    "ID": "CC3AB24B-400F-4CFF-BAED-34CEB90CB226"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "mockupH": "867",
+        "mockupW": "436",
+        "measuredW": "631",
+        "measuredH": "946",
+        "version": "1.0"
+    }
+}
