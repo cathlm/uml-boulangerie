@@ -1,21 +1,27 @@
+@font-face {
+    font-family: "luissSans-Regular";
+    src: url("../fonts/luiss/LuissSans-Regular.otf");
+}
+
 /*Palette de couleurs :
 
         gris foncé : #3e3c3c
-        gris moyen : #a39999
+        gris moyen : #d6cdcd
         ecriture de la nav : beige
         rouge : #aa1a28
         */
 
 
 
-body, div, p, a, ul, li, nav  {
+body, div, p, a, ul, li, nav, form  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #a39999;
+    background-color: #d6cdcd;
+    font-family: luiss, serif;
 }
 
 a {
@@ -24,23 +30,23 @@ a {
 }
 
 h1 {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 li {
     list-style-type: none;
 }
 
-h1, h2, h3 {
-    font-family: 'Fredericka The Great';
-}
 
 h1 {
     color: #aa1a28;
+    text-align: center;
+    
 }
 
 h2 {
     color: #3e3c3c;
+
 }
 
 /*                                                               EN TETE*/
@@ -53,6 +59,7 @@ h2 {
   }
 
 .menuDeroulant {
+    display: none;
     z-index: 2;
     display: flex;
     flex-flow: column nowrap;
@@ -93,36 +100,39 @@ nav img {
     height: 6em;
     background-color: #3e3c3c;
 }
+img.hambMenu {
+    width: 4em;
+    height: 4em;
+}
 
 .connexEtc {
     display: flex;
     justify-content: flex-end;
+    margin-right: 2em;
     }
     
 .connexEtc a {
     margin-left: 1em;
 }
 
-/*                                                 PAGE CATALOGUE*/
-.pageCatalogue {
-display: flex;
-flex-flow: column wrap;
-justify-content: space-around;
-align-items: center;
+/* --------------------------------------------------------------------PAGE CATALOGUE*/
+
+.presentationCatalogue p {
+    margin: 2em 5em 2em 5em;
+    font-size: 1.2em;
+}
+.nosOffres {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.pageCatalogue p {
-    margin-left: 5em;
-    margin-top: 3em;
-
-}
-.offresSpéciales, autresOffres {
-    flex-direction: column;
-} 
-
-.pageCatalogue img {
-    flex-direction: row;
-    height: 200px;
+.nosOffres img {
+    height: 145px;
     box-shadow: 3px 3px 3px #3e3c3c;
-    margin-right: 10px;
+    margin : 0 .2em 0 .2em;
 }
+/* 
+.offresSpeciales {
+    margin: auto;
+} */

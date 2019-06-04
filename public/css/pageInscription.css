@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "luissSans-Regular";
+  src: url("../fonts/luiss/LuissSans-Regular.otf");
+}
+
+.bodyInscription {
+  background-color: d6cdcd9;
+}
+
+h2 {
+  color: #aa1a28;
+  text-align: center;
+  margin-top: 2em;
+}
+
+p {
+  text-align: center;
+}
+
+.pageInscription {
+  font-family: "luissSans-Regular", serif;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pageInscription img {
+  width: 40%;
+  opacity: 0.75;
+  box-shadow: 3px 3px 3px #3e3c3c;
+  margin: 0 0.2em 0 0.2em;
+}
+
+.pageInscription p {
+  margin: 2em 5em 2em 5em;
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+.formulaire {
+  padding: 2em;
+  display: inline-block;
+  margin: auto auto auto 5em;
+}
+
+label {
+  display: inline-block;
+  min-width: 12em;
+  font: 1rem "luissSans-Regular", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+button {
+  transition: 1s;
+  padding: 1.5em;
+  background-color: ##d6cdcd;
+  border: none;
+  box-shadow: 3px 3px 3px #3e3c3c;
+  margin: 5em 0 0 24em;
+}
+button:hover {
+  transition: 0.2s;
+  background-color: #aa1a28;
+  cursor: pointer;
+}
+
+/* affichage checkbox    */
+
+.container {
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #aa1a28;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #aa1a28;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.pageInsciption .container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.pageInsciption h5 {
+  display: inline-block;
+  width: 10em;
+}
+.pageInsciption .container {
+  display: inline;
+}
