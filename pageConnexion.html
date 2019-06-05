@@ -7,30 +7,23 @@
     <meta http-equiv="Compatible X-UA" content="ie = bord" />
     <title> BOULANGERIE LORIEAU ENVOI DE SMS </title>
     <link rel="stylesheet" href="/public/css/style.css" />
-    <link rel="stylesheet" href="/public/css/pageConnexion.css" />
-  
 </head>
 
 <body class="bodyConnexion">
 
-    <nav>
-            <div class="logo">
+    <nav class="navPageN">
+            <div class="logoPageN">
                     <img src="images/logo.png" alt="Logo"/>
             </div>
           
-            <div class = "connexEtc">
+            <div class = "menuPageN">
                 <a href="pageConnexion.html"> Se connecter </a>
                 <a href="pageInscription.html"> S'inscrire </a>
                 <a href="pageMajProfil.html"> MAJ profil </a>
                 <a href="pageApropos.html"> A propos </a>
 
             </div>
-    
-            <div class = "enTete">
-                
-                
-            </div>
-        </nav>
+    </nav>
 
 
 
@@ -42,22 +35,32 @@
         <img src="images/fondPageConnect.jpg" alt="farine">
     </div>
 
-    <div class="Formulaire">
-        <form action="/">
-            <label for="nom">Nom :</label>
-            <input type="text" name="nom"><br>
+        
+    <div class="formulaire">
+        
+        <form action="/inscription" method="POST">
+            <label for="pseudo">Pseudo </label>
+            <input type="text" name="pseudo"><br>
+            <label for="telephone">Téléphone</label>
+            <input type="text" name="telephone"><br>
+            <label for="mail">Email (facultatif)</label>
+            <input type="email" name="mail"><br>
 
-
-            <label for="tel">Téléphone :</label>
-            <input type="text" name="tel"><br>
-
-            <button type="submit">Se connecter</button>
-
+            <p>Je souhaite recevoir les notifications par SMS :</p>
+            <input type="radio" name="recevoirSms" value="1" checked>Oui
+            <input type="radio" name="recevoirSms" value="0">Non
+ 
+            <p>Je souhaite recevoir les notifications par email :</p>
+            <input type="radio" name="recevoirMail" value="1" checked>Oui
+            <input type="radio" name="recevoirMail" value="0">Non<br>
+    
+            <button type="submit">Valider</button>
         </form>
     </div>
 </div>  
-
-
+    
+  
+    
 </body>
 
 </html>
