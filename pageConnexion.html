@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width = largeur du périphérique, initial-scale = 1.0" />
+    <meta name="viewport" content="width = 100, initial-scale = 1.0" />
     <meta http-equiv="Compatible X-UA" content="ie = bord" />
     <title> BOULANGERIE LORIEAU ENVOI DE SMS </title>
     <link rel="stylesheet" href="/public/css/style.css" />
@@ -32,27 +32,19 @@
 
 <div class="pageConnexion">
     <div class="pageConnexImg">
-        <img src="images/fondPageConnect.jpg" alt="farine">
+        <img src="images/photoConnect.jpg" alt="photos de blé">
     </div>
 
         
-    <div class="formulaire">
+    <div class="formulaireConnect">
         
-        <form action="/inscription" method="POST">
+        <form action="/connexion" method="POST">
             <label for="pseudo">Pseudo </label>
             <input type="text" name="pseudo"><br>
             <label for="telephone">Téléphone</label>
             <input type="text" name="telephone"><br>
-            <label for="mail">Email (facultatif)</label>
-            <input type="email" name="mail"><br>
-
-            <p>Je souhaite recevoir les notifications par SMS :</p>
-            <input type="radio" name="recevoirSms" value="1" checked>Oui
-            <input type="radio" name="recevoirSms" value="0">Non
- 
-            <p>Je souhaite recevoir les notifications par email :</p>
-            <input type="radio" name="recevoirMail" value="1" checked>Oui
-            <input type="radio" name="recevoirMail" value="0">Non<br>
+            
+             
     
             <button type="submit">Valider</button>
         </form>
