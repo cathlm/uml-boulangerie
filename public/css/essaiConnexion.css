@@ -14,12 +14,6 @@ nav {
     margin-right: 2em;
     }
     
-.pageConnexion {
-    font-family: 'luissSans-Regular', serif;
-    display: flex;
-    flex-flow: row wrap;
-    }
-
 .navImg {
     width: 70%;
 }
@@ -29,7 +23,6 @@ nav {
     padding: 0;
     border-radius: 50%;
     position: absolute;
-    /* width: 3em; */
     height: 5em;
 }
 
@@ -48,7 +41,9 @@ nav {
 }
 
 .formulaire {
-    padding: 2em;
+    
+    top: 10em;
+    margin: 2em;
     display: inline-block;
     margin: auto auto auto 5em;
 }
